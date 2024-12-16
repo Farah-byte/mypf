@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farah's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">FARAH
+        </div>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+   
+    <section id="home" class="section">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Farah</span></h1>
+            <p class="subtitle">A <span id="dynamic-text"></span></p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Farah, a creative thinker and passionate developer. I love building beautiful, functional, and interactive designs for the web.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar"><div class="skill-level" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

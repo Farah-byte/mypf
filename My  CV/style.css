@@ -1,0 +1,137 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #072d42;
+    color: rgb(106, 154, 183);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav a:hover,
+header nav a.active {
+   color:  rgb(106, 154, 183);
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background-color: #072d42;
+    color: white;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  rgb(106, 154, 183);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #eff5f5;
+}
+
+
+.skills {
+    margin-top: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 100%;
+    background-color:  rgb(106, 154, 183);
+}
+
+
+.projects {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color:  rgb(106, 154, 183);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #072d42;
+}
